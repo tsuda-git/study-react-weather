@@ -1,23 +1,25 @@
 .from-com{
   background-color: #dae0c6;
-  width: 800px;
-  height: 200px;
+  max-width: 1200px;
+  min-height: 200px;
   margin: 0 auto;
-  border: 3px solid #61616d;
+  border: 3px solid #35322f;
   h2{
-    color: #61616d;
+    color: #685a53;
     font-size: 30px;
     text-align:center;
     padding-top: 20px;
   }
   form{
-    margin-top: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
     .input-text{
       vertical-align : top;
-      margin-left: 130px;
       font-size: 30px;
       color: #61616d;
-      border: 3px solid #61616d;
+      border: 3px solid #685a53;
+      font-family: serif;
     }
     .input-text:focus {
       border: 3px solid #b5a399; 
@@ -28,13 +30,35 @@
       vertical-align : top;
       margin-left: 20px;
       font-size: 24px;
-      height: 38px;
+      height: 54px;
       color: white;
-      background-color: #b5a399;
-      border: 3px solid #61616d;
+      background-color: #685a53;
+      border: 3px solid #35322f;
+      font-family: serif;
     }
     .input-button:hover{
       opacity: 0.5;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    form{
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .input-text{
+        vertical-align : top;
+        font-size: 30px;
+        width: 343px;
+        margin: 0 auto;
+      }
+      .input-button{
+        width: 155px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
     }
   }
 }

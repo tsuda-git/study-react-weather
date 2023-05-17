@@ -1,13 +1,22 @@
 import './Results.css';
-import React from 'react'
 
-function Results() {
+type ResultsPropsType = {
+  results:{
+    country: string;
+    cityName: string;
+    temperature: string;
+    conditionText: string;
+    icon: string;
+  }
+}
+
+function Results(props:ResultsPropsType) {
   return (
     <div className='resultus-com'>
-      <h2 className='country-name'>国名</h2>
-      <h2 className='city-name'>都市名</h2>
-      <h2 className='temperature'>気温</h2>
-      <h2 className='weather'>天気</h2>
+      {props.results.country && <h2 className='country-name'>{props.results.country}</h2>}
+      {props.results.cityName && <h2 className='city-name'>{props.results.cityName}</h2>}
+      {props.results.temperature && <h2 className='temperature'>{props.results.temperature}℃</h2>}
+      {props.results.conditionText && <h2 className='weather'><img src={props.results.icon} alt="icon"></img><span>{props.results.conditionText}</span></h2>}
     </div>
   )
 }
