@@ -1,6 +1,31 @@
 .resultus-com {
-  background-color: #505050;
+  background-color: #dae0c6;
   width: 1200px;
-  height: 600px;
+  height: 650px;
   margin: 0 auto;
+  border: 3px solid #61616d;
+}
+.resultus-com .country-name {
+  padding-top: 30px;
+  text-align: center;
+  color: #b5a399;
+  font-size: 30px;
+}
+.resultus-com .city-name {
+  padding-top: 30px;
+  text-align: center;
+  color: #b5a399;
+  font-size: 50px;
+}
+.resultus-com .temperature {
+  padding-top: 30px;
+  text-align: center;
+  color: #b5a399;
+  font-size: 70px;
+}
+.resultus-com .weather {
+  padding-top: 30px;
+  text-align: center;
+  color: #b5a399;
+  font-size: 30px;
 }/*# sourceMappingURL=Results.css.map */

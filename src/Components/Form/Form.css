@@ -1,6 +1,40 @@
 .from-com {
-  background-color: #aaaaaa;
+  background-color: #dae0c6;
   width: 800px;
   height: 200px;
   margin: 0 auto;
+  border: 3px solid #61616d;
+}
+.from-com h2 {
+  color: #61616d;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+.from-com form {
+  margin-top: 40px;
+}
+.from-com form .input-text {
+  vertical-align: top;
+  margin-left: 130px;
+  font-size: 30px;
+  color: #61616d;
+  border: 3px solid #61616d;
+}
+.from-com form .input-text:focus {
+  border: 3px solid #b5a399;
+  z-index: 10;
+  outline: 0;
+}
+.from-com form .input-button {
+  vertical-align: top;
+  margin-left: 20px;
+  font-size: 24px;
+  height: 38px;
+  color: white;
+  background-color: #b5a399;
+  border: 3px solid #61616d;
+}
+.from-com form .input-button:hover {
+  opacity: 0.5;
 }/*# sourceMappingURL=Form.css.map */

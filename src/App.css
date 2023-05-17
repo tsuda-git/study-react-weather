@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
-  background-color: #cccccc;
+  background-color: #f0ead8;
   margin: 0 auto;
 }
 
@@ -20,9 +20,10 @@ body{
 }
 
 .form-com{
-  
+  margin-top: 30px;
 }
 
 .resuluts-com{
-  
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
